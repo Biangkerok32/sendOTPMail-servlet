@@ -13,9 +13,9 @@ public class SendMail {
 	 * authentication) Use Authentication: Yes Port for TLS/STARTTLS: 587
 	 */
 	public static void main(String[] args) {
-		final String fromEmail = "khumkhatri10@gmail.com"; // requires valid gmail id
-		final String password = "Wayne2016"; // correct password for gmail id
-		final String toEmail = "khumkhatri11@gmail.com"; // can be any email id
+		final String fromEmail = "emailid@gmail.com"; // requires valid gmail id
+		final String password = "********"; // correct password for gmail id
+		final String toEmail = "youremailid@gmail.com"; // can be any email id
 
 		System.out.println("TLSEmail Start");
 		Properties props = new Properties();
